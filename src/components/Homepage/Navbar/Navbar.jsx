@@ -41,7 +41,7 @@ export default function Navbar() {
         boxShadow={
           "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;"
         }
-        bg={"lightpink"}
+        bg={"lightsteelblue"}
         px={4}
       >
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
@@ -59,7 +59,7 @@ export default function Navbar() {
           <Flex alignItems={"center"}>
             <Stack alignItems={"center"} direction={"row"} spacing={7}>
               <Button
-                display={auth == true ? "block" : "none"}
+                display={auth === true ? "block" : "none"}
                 bg={"yellow"}
                 m
                 color={"green"}
@@ -70,7 +70,7 @@ export default function Navbar() {
                 All Notes
               </Button>
               <Button
-                display={auth == true ? "none" : "block"}
+                display={auth === true ? "none" : "block"}
                 bg={"yellow"}
                 m
                 color={"green"}
@@ -81,7 +81,7 @@ export default function Navbar() {
                 Sign up
               </Button>
               <Button
-                display={auth == true ? "none" : "block"}
+                display={auth === true ? "none" : "block"}
                 bg={"yellow"}
                 m
                 color={"green"}
@@ -107,7 +107,9 @@ export default function Navbar() {
                 >
                   <Avatar
                     size={"sm"}
-                    src={"https://avatars.dicebear.com/api/male/username.svg"}
+                    src={
+                      "https://static.vecteezy.com/system/resources/thumbnails/004/899/680/small_2x/beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg"
+                    }
                   />
                 </MenuButton>
                 <MenuList alignItems={"center"}>
@@ -115,7 +117,9 @@ export default function Navbar() {
                   <Center>
                     <Avatar
                       size={"2xl"}
-                      src={"https://avatars.dicebear.com/api/male/username.svg"}
+                      src={
+                        "https://static.vecteezy.com/system/resources/thumbnails/004/899/680/small_2x/beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg"
+                      }
                     />
                   </Center>
                   <br />

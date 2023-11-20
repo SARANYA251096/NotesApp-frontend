@@ -5,7 +5,7 @@ import note from "../assets/note.png";
 export default function Homepage() {
   return (
     <Box padding={8}>
-      <Image position={"absolute"} right={0} w={600} h={600} src={note} />
+      <Image position={"absolute"} right={0} w={650} h={600} src={note} />
       <Heading mt={16} textAlign={"start"} size={"4xl"}>
         Notes App
       </Heading>
